@@ -2,8 +2,7 @@
 
 https://issuetracker.google.com/issues/122578012
 
-Only happens on API 19 to 22
-
+Happens on API 14-22, when custom AlarmManager + BroadcastReceiver implementation is used instead of JobScheduler
 ```
 01-09 17:08:14.403 8109-8122/com.github.rubensousa.workkitkatbug I/WM-WorkerWrapper: Work [ id=611978b9-8da6-4ae8-8479-7827a8c95d4e, tags={ com.github.rubensousa.workkitkatbug.TestWorkerA } ] was cancelled
     java.util.concurrent.CancellationException: Task was cancelled.
